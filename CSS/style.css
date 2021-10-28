@@ -1,0 +1,45 @@
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    font-size: 100%;
+    list-style-type: none;
+}
+
+.container {
+    padding-top: 1vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5vw;
+    flex-wrap: wrap;
+}
+
+.card {
+    display: flex;
+    height: 19vw;
+    width: 13vw;
+    flex-direction: column;
+    padding: 1vw;
+}
+
+.divIMG {
+    height: 50vw;
+    width: 100%;
+}
+
+.img {
+    width: 100%;
+}
+
+.attributes {
+    height: 50vw;
+    width: 100%;
+    font-size: 1vw;
+    font-weight: bold;
+}
